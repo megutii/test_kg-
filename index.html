@@ -10,9 +10,9 @@
 <body>
   <main class="app">
     <section class="hero">
-      <div class="kicker">KG+ Prototype v5</div>
+      <div class="kicker">KG+ Prototype v6</div>
       <h1>近くの展示ファインダー</h1>
-      <p class="lead">番号は表示用、内部識別は <code>id</code> に分離した版です。近い番号でも混線しにくい構造にしています。</p>
+      <p class="lead">距離検索を残したまま、距離制限なしのキーワード検索を追加した版です。さらに、距離順 / 関連度順の切替と検索語ハイライトも入れています。</p>
       <div id="secureNotice" class="notice" style="display:none;"></div>
       <div class="toolbar">
         <div class="actions">
@@ -26,26 +26,28 @@
           <button id="applyManualBtn" class="ghost">手動地点を使う</button>
         </div>
         <div class="chips" id="radiusChips"></div>
+        <div class="chips" id="sortChips"></div>
         <div class="searchwrap">
           <input id="searchInput" type="search" placeholder="番号 / ID / 作家名 / 会場名 / 住所で検索">
           <button id="clearSearch" class="ghost">クリア</button>
         </div>
       </div>
-      <div id="status" class="status info">v5 は番号と内部IDを分離しています。S13 / 13 のような混線対策版です。</div>
+      <div id="status" class="status info">検索語があるときは距離制限なし、空のときは現在地からの距離検索です。</div>
     </section>
     <section class="summary">
       <div class="stat"><div class="k">表示件数</div><div id="countStat" class="v">-</div></div>
       <div class="stat"><div class="k">最寄り展示</div><div id="nearestStat" class="v">-</div></div>
       <div class="stat"><div class="k">検索半径</div><div id="radiusStat" class="v">500m</div></div>
       <div class="stat"><div class="k">verified件数</div><div id="verifiedStat" class="v">-</div></div>
+      <div class="stat"><div class="k">検索モード</div><div id="modeStat" class="v">距離</div></div>
     </section>
     <div class="section-head">
-      <h2>近くの展示</h2>
+      <h2>展示一覧</h2>
       <p id="subInfo">地点未設定</p>
     </div>
     <section id="list" class="list"></section>
     <footer>
-      <p class="small">S13 は URBAN RESEARCH KYOTO、13 は ギャラリーマロニエ として内部IDを分離しています。</p>
+      <p class="small">v6 の追加点: 距離制限なしのキーワード検索、距離順 / 関連度順、検索語ハイライト。S13 と 13 は内部IDで分離済みです。</p>
     </footer>
   </main>
   <script src="./app.js"></script>
