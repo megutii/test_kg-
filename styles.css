@@ -12,7 +12,7 @@ body{min-height:100vh}
 h1{margin:6px 0 8px;font-size:26px;line-height:1.12}
 .lead{margin:0;color:var(--muted);font-size:14px;line-height:1.6}
 .toolbar{display:grid;gap:10px;margin-top:16px}
-.actions,.presets,.chips,.links{display:flex;gap:8px;flex-wrap:wrap}
+.actions,.presets,.chips,.links,.meta{display:flex;gap:8px;flex-wrap:wrap}
 button,input{font:inherit}
 button,.chip,input{border-radius:14px;border:1px solid var(--line);background:var(--panel-2);color:var(--text)}
 button{padding:12px 14px;font-weight:800;cursor:pointer}
@@ -28,7 +28,7 @@ input{width:100%;padding:12px 14px;-webkit-appearance:none;appearance:none}
 .status.info,.notice{background:rgba(141,216,255,.06);border-color:rgba(141,216,255,.18);color:#dff6ff}
 .status.ok{background:rgba(49,208,161,.08);border-color:rgba(49,208,161,.22);color:#d9fff3}
 .status.error{background:rgba(255,122,147,.08);border-color:rgba(255,122,147,.22);color:#ffdbe2}
-.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0}
 .stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow)}
 .stat .k{color:var(--muted);font-size:12px}
 .stat .v{margin-top:6px;font-size:20px;font-weight:900}
@@ -43,13 +43,16 @@ input{width:100%;padding:12px 14px;-webkit-appearance:none;appearance:none}
 .title{margin:8px 0 4px;font-size:18px;line-height:1.35}
 .venue{color:var(--muted);font-size:14px;line-height:1.5}
 .address{margin-top:6px;color:var(--muted);font-size:13px;line-height:1.5}
-.meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
 .pill{border:1px solid var(--line);background:rgba(255,255,255,.02);border-radius:999px;padding:8px 10px;font-size:12px;color:var(--muted)}
+.pill.verified{border-color:rgba(49,208,161,.28); color:#d9fff3}
+.pill.partial{border-color:rgba(255,214,90,.28); color:#ffeaa4}
+.pill.unverified{border-color:rgba(255,122,147,.28); color:#ffdbe2}
 .links a{text-decoration:none;color:inherit}
 .empty{padding:22px 14px;border-radius:18px;text-align:center;color:var(--muted);border:1px dashed var(--line);background:rgba(255,255,255,.02)}
 .small{color:var(--muted);font-size:12px;line-height:1.55}
 footer{margin-top:16px}
 @media (max-width:560px){
+  .summary{grid-template-columns:repeat(2,1fr)}
   .manualgrid{grid-template-columns:1fr 1fr}
   .manualgrid button{grid-column:1 / -1}
 }

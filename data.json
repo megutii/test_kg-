@@ -6,7 +6,12 @@
     "lat": 35.0086662,
     "lng": 135.7568187,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/sigma-lounge/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/sigma-lounge/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S02",
@@ -15,7 +20,12 @@
     "lat": 35.0059754,
     "lng": 135.7725949,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/gfx-challenge-grant-program-2024-x-kg%EF%BC%8B-discovery-award-2025/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/gfx-challenge-grant-program-2024-x-kg%EF%BC%8B-discovery-award-2025/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S03",
@@ -24,7 +34,10 @@
     "lat": 35.0097127,
     "lng": 135.7589399,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/momo-nakagawa/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "S04",
@@ -33,7 +46,12 @@
     "lat": 35.0061363,
     "lng": 135.7709078,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/le-labo-fragrances/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/le-labo-fragrances/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S05",
@@ -42,7 +60,12 @@
     "lat": 35.0316985,
     "lng": 135.7389155,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/tamaki-yoshida-kazuhiko-matsumura/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/tamaki-yoshida-kazuhiko-matsumura/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S06",
@@ -51,7 +74,12 @@
     "lat": 35.0329229,
     "lng": 135.723733,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/kazuma-obara/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/kazuma-obara/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S07",
@@ -60,7 +88,12 @@
     "lat": 35.0071297,
     "lng": 135.7657466,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/shingo-goya/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/shingo-goya/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S08",
@@ -69,7 +102,12 @@
     "lat": 35.0006889,
     "lng": 135.7651865,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/himiko-chapuis/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/himiko-chapuis/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S09",
@@ -78,7 +116,12 @@
     "lat": 34.9300098,
     "lng": 135.7614256,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/masanobu-ando/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/masanobu-ando/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S10",
@@ -87,7 +130,12 @@
     "lat": 35.0047057,
     "lng": 135.7549937,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/daido-moriyama-2/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/daido-moriyama-2/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S11",
@@ -96,7 +144,12 @@
     "lat": 34.9864205,
     "lng": 135.7612914,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/kyungtaek-lee/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/kyungtaek-lee/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S12",
@@ -105,7 +158,12 @@
     "lat": 35.0097947,
     "lng": 135.7630677,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/takeshi-sumi-harumichi-saito-hajime-kimura-yuxing-chen-hayato-nishimura-pavel-pazukhin/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/takeshi-sumi-harumichi-saito-hajime-kimura-yuxing-chen-hayato-nishimura-pavel-pazukhin/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S13",
@@ -114,7 +172,12 @@
     "lat": 35.0051258,
     "lng": 135.7666491,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/timobarber-and-more-artists/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/timobarber-and-more-artists/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S14",
@@ -123,7 +186,12 @@
     "lat": 35.0038716,
     "lng": 135.7668798,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/rin-naruse%EF%BD%9Cnana-hirose-kazuma-nagatani/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/rin-naruse%EF%BD%9Cnana-hirose-kazuma-nagatani/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "S15",
@@ -132,7 +200,10 @@
     "lat": 35.0056477,
     "lng": 135.7634067,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/anne-murayama-curator-various-artists/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "S16",
@@ -141,7 +212,10 @@
     "lat": 34.9858556,
     "lng": 135.7587624,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/yeoju-international-photo-festival/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "A01",
@@ -150,7 +224,12 @@
     "lat": 35.0059984,
     "lng": 135.7563705,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/hyunmin-ryu/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/hyunmin-ryu/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "A02",
@@ -159,7 +238,12 @@
     "lat": 35.0060025,
     "lng": 135.7563491,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/sridhar-balasubramaniyam/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/sridhar-balasubramaniyam/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "A03",
@@ -168,7 +252,12 @@
     "lat": 35.0060129,
     "lng": 135.7563735,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/chaofan-wan/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/chaofan-wan/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "01",
@@ -177,7 +266,10 @@
     "lat": 35.0100506,
     "lng": 135.7536866,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "02",
@@ -186,7 +278,12 @@
     "lat": 35.0279587,
     "lng": 135.7439273,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/koji-onaka/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/koji-onaka/",
+    "verificationStatus": "partially_verified",
+    "verifiedFields": [
+      "detailUrl"
+    ],
+    "notes": "住所未監査"
   },
   {
     "no": "03",
@@ -195,7 +292,13 @@
     "lat": 35.0125635,
     "lng": 135.7642831,
     "address": "京都市中京区柳馬場通二条下ル等持寺町27",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/rongronginri/"
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/rongronginri/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "address"
+    ],
+    "notes": "ユーザー指摘で住所修正済み"
   },
   {
     "no": "04",
@@ -204,7 +307,10 @@
     "lat": 35.0049069,
     "lng": 135.7792253,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "06",
@@ -213,7 +319,10 @@
     "lat": 35.0172168,
     "lng": 135.7667787,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "07",
@@ -222,7 +331,10 @@
     "lat": 35.0099349,
     "lng": 135.7825933,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "09",
@@ -231,7 +343,10 @@
     "lat": 35.0097744,
     "lng": 135.7599798,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "10",
@@ -240,7 +355,10 @@
     "lat": 35.0247562,
     "lng": 135.7953593,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "11",
@@ -249,7 +367,10 @@
     "lat": 34.9753382,
     "lng": 135.7589319,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "12",
@@ -258,7 +379,10 @@
     "lat": 35.0148209,
     "lng": 135.7622734,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "13",
@@ -266,8 +390,14 @@
     "venue": "ギャラリーマロニエ",
     "lat": 35.0055252,
     "lng": 135.7694462,
-    "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "address": "〒604-8045 京都府京都市中京区寺町通錦小路上る円福寺前町２８５",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/timobarber-and-more-artists/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "address"
+    ],
+    "notes": "ユーザー指摘で詳細URL・住所修正済み"
   },
   {
     "no": "14",
@@ -276,7 +406,10 @@
     "lat": 34.9893343,
     "lng": 135.7471116,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "15",
@@ -285,7 +418,10 @@
     "lat": 34.9734983,
     "lng": 135.764043,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "16-1",
@@ -294,7 +430,10 @@
     "lat": 35.0095128,
     "lng": 135.7807968,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "16-2",
@@ -303,7 +442,10 @@
     "lat": 35.0100296,
     "lng": 135.7429174,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "17",
@@ -312,7 +454,10 @@
     "lat": 34.9983701,
     "lng": 135.7733867,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "18",
@@ -321,7 +466,10 @@
     "lat": 35.0229167,
     "lng": 135.751564,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "19",
@@ -330,7 +478,10 @@
     "lat": 35.0262132,
     "lng": 135.7782698,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "20",
@@ -339,7 +490,10 @@
     "lat": 35.0188938,
     "lng": 135.783556,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "21",
@@ -348,7 +502,10 @@
     "lat": 34.988998,
     "lng": 135.7479622,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "22",
@@ -357,7 +514,10 @@
     "lat": 35.0212994,
     "lng": 135.7708096,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "23-1",
@@ -366,7 +526,10 @@
     "lat": 35.0241202,
     "lng": 135.7515371,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "23-2",
@@ -375,7 +538,10 @@
     "lat": 35.024101,
     "lng": 135.7515476,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   },
   {
     "no": "25",
@@ -384,6 +550,9 @@
     "lat": 34.9774233,
     "lng": 135.7662635,
     "address": "",
-    "detailUrl": "https://kgplus.kyotographie.jp/map/"
+    "detailUrl": "https://kgplus.kyotographie.jp/map/",
+    "verificationStatus": "unverified",
+    "verifiedFields": [],
+    "notes": "詳細URL・住所未監査"
   }
 ]

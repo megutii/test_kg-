@@ -11,7 +11,7 @@
     <section class="hero">
       <div class="kicker">KG+ Prototype</div>
       <h1>近くの展示ファインダー</h1>
-      <p class="lead">現在地または手動地点から、近くのKG+展示を距離順で表示します。住所表示と公式詳細リンクを追加した改訂版です。</p>
+      <p class="lead">verified / unverified を持つ監査向け改訂版です。どの展示のどの項目が確認済みかを可視化します。</p>
 
       <div id="secureNotice" class="notice" style="display:none;"></div>
 
@@ -30,6 +30,7 @@
         </div>
 
         <div class="chips" id="radiusChips"></div>
+        <div class="chips" id="verificationChips"></div>
 
         <div class="searchwrap">
           <input id="searchInput" type="search" placeholder="番号 / 作家名 / 会場名 / 住所で検索">
@@ -37,7 +38,7 @@
         </div>
       </div>
 
-      <div id="status" class="status info">公開環境向けです。GitHub Pages 上で現在地取得が動作します。</div>
+      <div id="status" class="status info">監査向けデータ構造版です。verified / partial / unverified を確認できます。</div>
     </section>
 
     <section class="summary">
@@ -53,6 +54,10 @@
         <div class="k">検索半径</div>
         <div id="radiusStat" class="v">500m</div>
       </div>
+      <div class="stat">
+        <div class="k">verified件数</div>
+        <div id="verifiedStat" class="v">-</div>
+      </div>
     </section>
 
     <div class="section-head">
@@ -63,7 +68,7 @@
     <section id="list" class="list"></section>
 
     <footer>
-      <p class="small">今回の改訂では data.json に address / detailUrl を追加しました。03 / 京都三影堂 は、正式住所に修正済みです。</p>
+      <p class="small">今回の版では data.json に verificationStatus / verifiedFields / notes を追加しました。03 と 13 は address / detailUrl を verified 扱いにしています。</p>
     </footer>
   </main>
   <script src="./app.js"></script>

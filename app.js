@@ -7,7 +7,7 @@ const presetPoints = [
   { label:'出町柳', lat:35.029004, lng:135.772104 }
 ];
 
-const state = { radius: 500, userLat: null, userLng: null, search: '', exhibitions: [] };
+const state = { radius: 500, userLat: null, userLng: null, search: '', statusFilter: 'all', exhibitions: [] };
 
 const el = {
   radiusChips: document.getElementById('radiusChips'),
@@ -16,12 +16,14 @@ const el = {
   countStat: document.getElementById('countStat'),
   nearestStat: document.getElementById('nearestStat'),
   radiusStat: document.getElementById('radiusStat'),
+  verifiedStat: document.getElementById('verifiedStat'),
   subInfo: document.getElementById('subInfo'),
   searchInput: document.getElementById('searchInput'),
   secureNotice: document.getElementById('secureNotice'),
   presetButtons: document.getElementById('presetButtons'),
   latInput: document.getElementById('latInput'),
   lngInput: document.getElementById('lngInput'),
+  verificationChips: document.getElementById('verificationChips')
 };
 
 function haversine(lat1, lon1, lat2, lon2) {
@@ -57,6 +59,26 @@ function buildRadiusChips() {
   });
   el.radiusStat.textContent = `${state.radius}m`;
 }
+function buildVerificationChips() {
+  const options = [
+    ['all', 'すべて'],
+    ['verified', 'verified'],
+    ['partially_verified', 'partial'],
+    ['unverified', 'unverified']
+  ];
+  el.verificationChips.innerHTML = '';
+  options.forEach(([value, label]) => {
+    const chip = document.createElement('button');
+    chip.className = `chip ${state.statusFilter === value ? 'active' : ''}`;
+    chip.textContent = label;
+    chip.addEventListener('click', () => {
+      state.statusFilter = value;
+      buildVerificationChips();
+      render();
+    });
+    el.verificationChips.appendChild(chip);
+  });
+}
 function buildPresetButtons() {
   presetPoints.forEach((p) => {
     const btn = document.createElement('button');
@@ -66,19 +88,32 @@ function buildPresetButtons() {
     el.presetButtons.appendChild(btn);
   });
 }
+function badgeClass(status) {
+  if (status === 'verified') return 'pill verified';
+  if (status === 'partially_verified') return 'pill partial';
+  return 'pill unverified';
+}
+function badgeText(status) {
+  if (status === 'verified') return 'verified';
+  if (status === 'partially_verified') return 'partial';
+  return 'unverified';
+}
 function filteredResults() {
   if (state.userLat == null || state.userLng == null) return [];
   const q = state.search.trim().toLowerCase();
   return state.exhibitions
     .map(item => ({ ...item, distance: haversine(state.userLat, state.userLng, item.lat, item.lng) }))
     .filter(item => item.distance <= state.radius)
+    .filter(item => state.statusFilter === 'all' || item.verificationStatus === state.statusFilter)
     .filter(item => !q || [item.no, item.title, item.venue, item.address].some(v => String(v ?? '').toLowerCase().includes(q)))
     .sort((a, b) => a.distance - b.distance);
 }
 function render() {
   const results = filteredResults();
+  const verifiedCount = state.exhibitions.filter(x => x.verificationStatus === 'verified').length;
   el.countStat.textContent = results.length;
   el.nearestStat.textContent = results[0] ? results[0].no : '-';
+  el.verifiedStat.textContent = `${verifiedCount}/${state.exhibitions.length}`;
 
   if (state.userLat != null && state.userLng != null) {
     el.subInfo.textContent = `検索地点: ${state.userLat.toFixed(6)}, ${state.userLng.toFixed(6)}`;
@@ -91,14 +126,15 @@ function render() {
     return;
   }
   if (results.length === 0) {
-    el.list.innerHTML = `<div class="empty">半径 ${state.radius}m 以内に該当展示がありません。半径を広げるか、検索条件をクリアしてください。</div>`;
+    el.list.innerHTML = `<div class="empty">条件に一致する展示がありません。半径または verification フィルタを見直してください。</div>`;
     return;
   }
 
   el.list.innerHTML = results.map(item => {
     const mapLink = `https://www.google.com/maps/dir/?api=1&destination=${item.lat},${item.lng}&travelmode=walking`;
     const addressHtml = item.address ? `<div class="address">${escapeHtml(item.address)}</div>` : '';
-    const detailHtml = item.detailUrl ? `<a href="${item.detailUrl}" target="_blank" rel="noreferrer"><button class="ghost">公式詳細</button></a>` : '';
+    const notesHtml = item.notes ? `<span class="pill">${escapeHtml(item.notes)}</span>` : '';
+    const fieldsHtml = (item.verifiedFields || []).length ? `<span class="pill">${escapeHtml(item.verifiedFields.join(', '))}</span>` : '';
     return `
       <article class="card">
         <div class="topline">
@@ -109,12 +145,14 @@ function render() {
         <div class="venue">${escapeHtml(item.venue)}</div>
         ${addressHtml}
         <div class="meta">
-          <span class="pill">徒歩圏候補</span>
+          <span class="${badgeClass(item.verificationStatus)}">${badgeText(item.verificationStatus)}</span>
+          ${fieldsHtml}
+          ${notesHtml}
           <span class="pill">${formatDistance(item.distance)}</span>
         </div>
         <div class="links">
           <a href="${mapLink}" target="_blank" rel="noreferrer"><button class="primary">Googleマップで行く</button></a>
-          ${detailHtml}
+          <a href="${item.detailUrl}" target="_blank" rel="noreferrer"><button class="ghost">公式詳細</button></a>
         </div>
       </article>
     `;
@@ -156,6 +194,7 @@ async function init() {
     if (!res.ok) throw new Error('data.json load failed');
     state.exhibitions = await res.json();
     buildRadiusChips();
+    buildVerificationChips();
     buildPresetButtons();
 
     document.getElementById('locateBtn').addEventListener('click', requestLocation);
