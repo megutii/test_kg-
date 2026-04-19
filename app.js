@@ -40,7 +40,7 @@ function formatDistance(m) {
   return `${(m/1000).toFixed(2)}km`;
 }
 function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 function buildRadiusChips() {
   el.radiusChips.innerHTML = '';
@@ -72,7 +72,7 @@ function filteredResults() {
   return state.exhibitions
     .map(item => ({ ...item, distance: haversine(state.userLat, state.userLng, item.lat, item.lng) }))
     .filter(item => item.distance <= state.radius)
-    .filter(item => !q || [item.no, item.title, item.venue].some(v => String(v).toLowerCase().includes(q)))
+    .filter(item => !q || [item.no, item.title, item.venue, item.address].some(v => String(v ?? '').toLowerCase().includes(q)))
     .sort((a, b) => a.distance - b.distance);
 }
 function render() {
@@ -95,23 +95,30 @@ function render() {
     return;
   }
 
-  el.list.innerHTML = results.map(item => `
-    <article class="card">
-      <div class="topline">
-        <div class="badge">${escapeHtml(item.no)}</div>
-        <div class="distance">${formatDistance(item.distance)}</div>
-      </div>
-      <h3 class="title">${escapeHtml(item.title)}</h3>
-      <div class="venue">${escapeHtml(item.venue)}</div>
-      <div class="meta">
-        <span class="pill">徒歩圏候補</span>
-        <span class="pill">${formatDistance(item.distance)}</span>
-      </div>
-      <div class="links">
-        <a href="https://www.google.com/maps/dir/?api=1&destination=${item.lat},${item.lng}&travelmode=walking" target="_blank" rel="noreferrer"><button class="primary">Googleマップで行く</button></a>
-      </div>
-    </article>
-  `).join('');
+  el.list.innerHTML = results.map(item => {
+    const mapLink = `https://www.google.com/maps/dir/?api=1&destination=${item.lat},${item.lng}&travelmode=walking`;
+    const addressHtml = item.address ? `<div class="address">${escapeHtml(item.address)}</div>` : '';
+    const detailHtml = item.detailUrl ? `<a href="${item.detailUrl}" target="_blank" rel="noreferrer"><button class="ghost">公式詳細</button></a>` : '';
+    return `
+      <article class="card">
+        <div class="topline">
+          <div class="badge">${escapeHtml(item.no)}</div>
+          <div class="distance">${formatDistance(item.distance)}</div>
+        </div>
+        <h3 class="title">${escapeHtml(item.title)}</h3>
+        <div class="venue">${escapeHtml(item.venue)}</div>
+        ${addressHtml}
+        <div class="meta">
+          <span class="pill">徒歩圏候補</span>
+          <span class="pill">${formatDistance(item.distance)}</span>
+        </div>
+        <div class="links">
+          <a href="${mapLink}" target="_blank" rel="noreferrer"><button class="primary">Googleマップで行く</button></a>
+          ${detailHtml}
+        </div>
+      </article>
+    `;
+  }).join('');
 }
 function applyLocation(lat, lng, label='現在地') {
   state.userLat = Number(lat);
