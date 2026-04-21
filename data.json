@@ -1,11 +1,21 @@
 [
   {
+    "no": "04",
+    "title": "石川竜一、曽田浩隆",
+    "venue": "eN arts",
+    "lat": 35.0049,
+    "lng": 135.7792,
+    "addressNormalized": "京都市東山区祇園町北側627-40",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/ryuichi-ishikawa-hirotaka-soda/"
+  },
+  {
     "no": "S13",
     "title": "timobarber",
     "venue": "URBAN RESEARCH KYOTO",
     "lat": 35.0051,
     "lng": 135.7666,
-    "addressNormalized": "京都市中京区円福寺前町285"
+    "addressNormalized": "京都市中京区円福寺前町285",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/timobarber-and-more-artists/"
   },
   {
     "no": "13",
@@ -13,7 +23,8 @@
     "venue": "ギャラリーマロニエ",
     "lat": 35.0055,
     "lng": 135.7694,
-    "addressNormalized": "京都市中京区塩屋町332"
+    "addressNormalized": "京都市中京区塩屋町332",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/daniela-kostova-aline-muller-zoe-marieh-urness-katie-heller-saltoun-satomi-shirai/"
   },
   {
     "no": "S16",
@@ -21,6 +32,7 @@
     "venue": "京都駅",
     "lat": 34.9858,
     "lng": 135.7587,
-    "addressNormalized": "京都駅"
+    "addressNormalized": "京都駅",
+    "detailUrl": "https://kgplus.kyotographie.jp/"
   }
 ]
