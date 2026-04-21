@@ -27,10 +27,16 @@ document.getElementById("locateBtn").onclick=()=>{
   });
 };
 
-document.getElementById("searchInput").oninput=e=>{
-  state.search=e.target.value.toLowerCase();
+document.getElementById("searchBtn").onclick=doSearch;
+
+document.getElementById("searchInput").addEventListener("keypress",e=>{
+  if(e.key==="Enter"){doSearch();}
+});
+
+function doSearch(){
+  state.search=document.getElementById("searchInput").value.toLowerCase();
   render();
-};
+}
 
 function dist(a,b,c,d){
   const R=6371000;
@@ -48,7 +54,13 @@ function getItems(){
 
   if(state.search){
     return items.filter(x=>
-      (x.title+x.venue+x.no+(x.id||"")).toLowerCase().includes(state.search)
+      (
+        (x.title||"")+
+        (x.venue||"")+
+        (x.no||"")+
+        (x.addressNormalized||"")+
+        (x.addressOfficial||"")
+      ).toLowerCase().includes(state.search)
     ).sort((a,b)=>(a.distance||999999)-(b.distance||999999));
   }
 

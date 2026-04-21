@@ -4,13 +4,23 @@
     "title": "timobarber",
     "venue": "URBAN RESEARCH KYOTO",
     "lat": 35.0051,
-    "lng": 135.7666
+    "lng": 135.7666,
+    "addressNormalized": "京都市中京区円福寺前町285"
   },
   {
     "no": "13",
     "title": "ダニエラ・コストヴァ他",
     "venue": "ギャラリーマロニエ",
     "lat": 35.0055,
-    "lng": 135.7694
+    "lng": 135.7694,
+    "addressNormalized": "京都市中京区塩屋町332"
+  },
+  {
+    "no": "S16",
+    "title": "京都駅ビル展示",
+    "venue": "京都駅",
+    "lat": 34.9858,
+    "lng": 135.7587,
+    "addressNormalized": "京都駅"
   }
 ]

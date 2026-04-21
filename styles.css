@@ -1,5 +1,6 @@
 body{margin:0;font-family:sans-serif;background:#0b0f14;color:#fff;}
-.hero{position:fixed;top:0;width:100%;background:#111;padding:10px;z-index:1000;}
+.hero{position:fixed;top:0;width:100%;background:#111;padding:10px;z-index:1000;display:flex;gap:6px;}
+.hero input{flex:1;padding:8px;border-radius:8px;border:none;}
 #map{height:45vh;margin-top:60px;}
 #list{padding:10px;}
 .card{padding:10px;border-bottom:1px solid #333;}
