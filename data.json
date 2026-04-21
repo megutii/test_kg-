@@ -1,38 +1,890 @@
 [
   {
+    "id": "kgp_2026_s01_sigma_lounge_oden_gallery",
+    "no": "S01",
+    "title": "Sigma Lounge",
+    "officialTitle": "Sigma Lounge",
+    "venue": "O-DEN Gallery",
+    "lat": 35.0086662,
+    "lng": 135.7568187,
+    "addressOfficial": "〒604-8203 京都府京都市中京区衣棚町38-1 1F",
+    "addressNormalized": "〒604-8203 京都府京都市中京区衣棚町38-1 1F",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/sigma-lounge/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s02_gfx_challenge_sfera",
+    "no": "S02",
+    "title": "GFX Challenge Grant Program 2024 × KG＋ Discovery Award 2025 (キベラスラム、私たちの暮らしにようこそ。)",
+    "officialTitle": "GFX Challenge Grant Program 2024 × KG＋ Discovery Award 2025 (キベラスラム、私たちの暮らしにようこそ。)",
+    "venue": "Sfera",
+    "lat": 35.0059754,
+    "lng": 135.7725949,
+    "addressOfficial": "京都府京都市東山区弁財天町１７ スフェラ・ビル",
+    "addressNormalized": "京都府京都市東山区弁財天町17 スフェラ・ビル",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/gfx-challenge-grant-program-2024-x-kg%EF%BC%8B-discovery-award-2025/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s03_dior_hosoo_lounge",
+    "no": "S03",
+    "title": "The Art of Color – Dior Photography and Visual Arts Award for Young Talents presents:",
+    "officialTitle": "The Art of Color – Dior Photography and Visual Arts Award for Young Talents presents:",
+    "venue": "HOSOO LOUNGE",
+    "lat": 35.0097127,
+    "lng": 135.7589399,
+    "addressOfficial": "〒604-8173 京都府京都市中京区柿本町４１２",
+    "addressNormalized": "〒604-8173 京都府京都市中京区柿本町412",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/momo-nakagawa/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s04_le_labo_kyoto_machiya",
+    "no": "S04",
+    "title": "デボラ ロイヤー - ル ラボ フレグランス",
+    "officialTitle": "デボラ ロイヤー - ル ラボ フレグランス",
+    "venue": "ル ラボ 京都町家",
+    "lat": 35.0061363,
+    "lng": 135.7709078,
+    "addressOfficial": "〒604-8016京都府京都市中京区木屋町通四条上る2丁目下樵木町206番地",
+    "addressNormalized": "〒604-8016 京都府京都市中京区木屋町通四条上る2丁目下樵木町206番地",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/le-labo-fragrances/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s05_yoshida_matsumura_rps",
+    "no": "S05",
+    "title": "𠮷田多麻希、松村和彦",
+    "officialTitle": "𠮷田多麻希、松村和彦",
+    "venue": "RPS京都分室パプロル",
+    "lat": 35.0316985,
+    "lng": 135.7389155,
+    "addressOfficial": "〒602-8318 京都市上京区老松町603",
+    "addressNormalized": "〒602-8318 京都府京都市上京区老松町603",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/tamaki-yoshida-kazuhiko-matsumura/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s06_obara_ritsumeikan",
+    "no": "S06",
+    "title": "小原一真",
+    "officialTitle": "小原一真",
+    "venue": "⽴命館⼤学国際平和ミュージアム1階 中野記念ホール",
+    "lat": 35.0329229,
+    "lng": 135.723733,
+    "addressOfficial": "〒603-8577 京都市北区等持院北町56-1",
+    "addressNormalized": "〒603-8577 京都府京都市北区等持院北町56-1",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/kazuma-obara/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s07_goya_north_face_standard_kyoto",
+    "no": "S07",
+    "title": "呉屋慎吾",
+    "officialTitle": "呉屋慎吾",
+    "venue": "ザ・ノースフェイス・スタンダード 京都",
+    "lat": 35.0071297,
+    "lng": 135.7657466,
+    "addressOfficial": "京都府京都市中京区坂井町 450",
+    "addressNormalized": "京都府京都市中京区坂井町450",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/shingo-goya/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s08_chapuis_sekai_souko",
+    "no": "S08",
+    "title": "Himiko Chapuis",
+    "officialTitle": "Himiko Chapuis",
+    "venue": "世界倉庫",
+    "lat": 35.0006889,
+    "lng": 135.7651865,
+    "addressOfficial": "〒600-8061 京都府京都市下京区富小路通高辻上ル筋屋町144番 路地入ル 倉庫",
+    "addressNormalized": "〒600-8061 京都府京都市下京区富小路通高辻上ル筋屋町144番 路地入ル 倉庫",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/himiko-chapuis/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s09_ando_gekkekan_shinaya",
+    "no": "S09",
+    "title": "安藤政信",
+    "officialTitle": "安藤政信",
+    "venue": "月桂冠新家（大倉家旧宅）",
+    "lat": 34.9300098,
+    "lng": 135.7614256,
+    "addressOfficial": "〒612-8660 京都府京都市伏見区南浜町２４７",
+    "addressNormalized": "〒612-8660 京都府京都市伏見区南浜町247",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/masanobu-ando/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s10_moriyama_node_hotel",
+    "no": "S10",
+    "title": "森山大道",
+    "officialTitle": "森山大道",
+    "venue": "node hotel",
+    "lat": 35.0047057,
+    "lng": 135.7549937,
+    "addressOfficial": "〒604-8225 京都市中京区四条西洞院上ル蟷螂山町461",
+    "addressNormalized": "〒604-8225 京都府京都市中京区四条西洞院上ル蟷螂山町461",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/daido-moriyama-2/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s11_lee_thousand_kyoto",
+    "no": "S11",
+    "title": "Kyungtaek Lee",
+    "officialTitle": "Kyungtaek Lee",
+    "venue": "ザ・サウザンド京都",
+    "lat": 34.9864205,
+    "lng": 135.7612914,
+    "addressOfficial": "京都市下京区東塩小路町５７０",
+    "addressNormalized": "京都府京都市下京区東塩小路町570",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/kyungtaek-lee/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s12_commons_lounge_karimoku",
+    "no": "S12",
+    "title": "澄毅、齋藤陽道、木村肇、陈雨星、西村勇人、Pavel Pazukhin",
+    "officialTitle": "澄毅、齋藤陽道、木村肇、陈雨星、西村勇人、Pavel Pazukhin",
+    "venue": "カリモク コモンズ キョウト",
+    "lat": 35.0097947,
+    "lng": 135.7630677,
+    "addressOfficial": "京都市中京区大阪材木町６８５−２",
+    "addressNormalized": "京都府京都市中京区大阪材木町685-2",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/takeshi-sumi-harumichi-saito-hajime-kimura-yuxing-chen-hayato-nishimura-pavel-pazukhin/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s13_timobarber_urban_research_kyoto",
+    "no": "S13",
+    "title": "timobarber(curator)他アーティスト 今後追加発表",
+    "officialTitle": "timobarber, ...and more artists",
+    "venue": "URBAN RESEARCH KYOTO",
+    "lat": 35.0051258,
+    "lng": 135.7666491,
+    "addressOfficial": "京都府京都市中京区円福寺前町285",
+    "addressNormalized": "京都府京都市中京区円福寺前町285",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/timobarber-and-more-artists/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id",
+      "officialTitle"
+    ],
+    "notes": "S13 は timobarber / URBAN RESEARCH KYOTO"
+  },
+  {
+    "id": "kgp_2026_s14_naruse_hirose_nagatani_teramachi",
+    "no": "S14",
+    "title": "成瀬 凜｜広瀬菜々&永谷一馬",
+    "officialTitle": "成瀬 凜｜広瀬菜々&永谷一馬",
+    "venue": "寺町京極商店街アーケード",
+    "lat": 35.0038716,
+    "lng": 135.7668798,
+    "addressOfficial": "604-8071 京都市中京区寺町通三条通から四条通のアーケード内",
+    "addressNormalized": "〒604-8071 京都府京都市中京区寺町通三条通から四条通のアーケード内",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/rin-naruse%EF%BD%9Cnana-hirose-kazuma-nagatani/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s15_anne_murayama_ogawa_coffee",
+    "no": "S15",
+    "title": "アン・ムラヤマ（キュレーター）、他 参加アーティスト",
+    "officialTitle": "アン・ムラヤマ（キュレーター）、他 参加アーティスト",
+    "venue": "小川珈琲 堺町錦店",
+    "lat": 35.0056477,
+    "lng": 135.7634067,
+    "addressOfficial": "〒604-8127 京都府京都市中京区堺町通錦小路上る菊屋町 519-1",
+    "addressNormalized": "〒604-8127 京都府京都市中京区堺町通錦小路上る菊屋町519-1",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/anne-murayama-curator-various-artists/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_s16_yeoju_kyoto_station_building",
+    "no": "S16",
+    "title": "ヨジュ国際写真祭",
+    "officialTitle": "ヨジュ国際写真祭",
+    "venue": "京都駅ビル7階 東広場北ピロティ",
+    "lat": 34.9858556,
+    "lng": 135.7587624,
+    "addressOfficial": "京都市下京区東塩小路町 京都駅ビル7階",
+    "addressNormalized": "京都府京都市下京区東塩小路町 京都駅ビル7階",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/yeoju-international-photo-festival/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_a01_ryu_kurochiku_manzo",
+    "no": "A01",
+    "title": "リュ・ヒョンミン",
+    "officialTitle": "リュ・ヒョンミン",
+    "venue": "くろちく万蔵ビル",
+    "lat": 35.0059984,
+    "lng": 135.7563705,
+    "addressOfficial": "京都府京都市中京区百足屋町３７４−２ くろちく万蔵ビル",
+    "addressNormalized": "京都府京都市中京区百足屋町374-2 くろちく万蔵ビル",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/hyunmin-ryu/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_a02_balasubramaniyam_kurochiku_manzo",
+    "no": "A02",
+    "title": "スリダー・バラシュブラマニヤム",
+    "officialTitle": "スリダー・バラシュブラマニヤム",
+    "venue": "くろちく万蔵ビル",
+    "lat": 35.0060025,
+    "lng": 135.7563491,
+    "addressOfficial": "京都府京都市中京区百足屋町３７４−２ くろちく万蔵ビル",
+    "addressNormalized": "京都府京都市中京区百足屋町374-2 くろちく万蔵ビル",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/sridhar-balasubramaniyam/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_a03_wan_kurochiku_manzo",
+    "no": "A03",
+    "title": "宛超凡",
+    "officialTitle": "宛超凡",
+    "venue": "くろちく万蔵ビル",
+    "lat": 35.0060129,
+    "lng": 135.7563735,
+    "addressOfficial": "京都府京都市中京区百足屋町３７４−２ くろちく万蔵ビル",
+    "addressNormalized": "京都府京都市中京区百足屋町374-2 くろちく万蔵ビル",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/chaofan-wan/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_01_yamamoto_purple",
+    "no": "01",
+    "title": "山元彩香",
+    "officialTitle": "山元彩香",
+    "venue": "PURPLE",
+    "lat": 35.0100506,
+    "lng": 135.7536866,
+    "addressOfficial": "〒604-8261 京都市中京区式阿弥町122-1 式阿弥町ビル 3階",
+    "addressNormalized": "〒604-8261 京都府京都市中京区式阿弥町122-1 式阿弥町ビル3階",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/ayaka-yamamoto/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_02_onaka_akuta",
+    "no": "02",
+    "title": "尾仲浩二",
+    "officialTitle": "尾仲浩二",
+    "venue": "写真ギャラリー & 写真集カフェ 芥",
+    "lat": 35.0279587,
+    "lng": 135.7439273,
+    "addressOfficial": "〒602-8453 京都市上京区笹屋町3丁目602-2",
+    "addressNormalized": "〒602-8453 京都府京都市上京区笹屋町3丁目602-2",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/koji-onaka/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_03_rongronginri_kyoto_saneido",
+    "no": "03",
+    "title": "榮榮＆映里",
+    "officialTitle": "RongRong&inri",
+    "venue": "京都三影堂",
+    "lat": 35.0125635,
+    "lng": 135.7642831,
+    "addressOfficial": "604-0956 京都市京都府中京区柳馬場通二条下ル等持寺町２７",
+    "addressNormalized": "〒604-0956 京都府京都市中京区柳馬場通二条下ル等持寺町27",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/rongronginri/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id",
+      "officialTitle"
+    ],
+    "notes": "official は公式表記のまま保持"
+  },
+  {
+    "id": "kgp_2026_sugata_expansions_of_photography_gallery_sugata",
+    "no": "SUGATA",
+    "title": "Expansions of Photography presented by SUGATA",
+    "officialTitle": "Expansions of Photography presented by SUGATA",
+    "venue": "ギャラリー素形",
+    "lat": 35.013125899709,
+    "lng": 135.7577813245,
+    "addressOfficial": "京都府京都市中京区室町通二条下ル蛸薬師町２７１ー１ 然花抄院室町本店内",
+    "addressNormalized": "京都府京都市中京区室町通二条下ル蛸薬師町271-1 然花抄院室町本店内",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/expansions-of-photography-presented-by-sugata/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_04_ishikawa_soda_en_arts",
     "no": "04",
     "title": "石川竜一、曽田浩隆",
+    "officialTitle": "石川竜一、曽田浩隆",
     "venue": "eN arts",
-    "lat": 35.0049,
-    "lng": 135.7792,
-    "addressNormalized": "京都市東山区祇園町北側627-40",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/ryuichi-ishikawa-hirotaka-soda/"
+    "lat": 35.0049069,
+    "lng": 135.7792253,
+    "addressOfficial": "〒605-0073 京都府京都市東山区祇園町北側６２７ 40 円山公園内八坂神社北側 eN arts",
+    "addressNormalized": "〒605-0073 京都府京都市東山区祇園町北側627-40 円山公園内八坂神社北側 eN arts",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/ryuichi-ishikawa-hirotaka-soda/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
   },
   {
-    "no": "S13",
-    "title": "timobarber",
-    "venue": "URBAN RESEARCH KYOTO",
-    "lat": 35.0051,
-    "lng": 135.7666,
-    "addressNormalized": "京都市中京区円福寺前町285",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/timobarber-and-more-artists/"
+    "id": "kgp_2026_06_shengzhe_cohju",
+    "no": "06",
+    "title": "Shengzhe",
+    "officialTitle": "Shengzhe",
+    "venue": "COHJU",
+    "lat": 35.0172168,
+    "lng": 135.7667787,
+    "addressOfficial": "604-0981 京都市中京区京都府毘沙門町557 COHJUビル",
+    "addressNormalized": "〒604-0981 京都府京都市中京区毘沙門町557 COHJUビル",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/shengzhe/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "official は公式表記のまま保持"
   },
   {
+    "id": "kgp_2026_07_saito_sumi_japanesque",
+    "no": "07",
+    "title": "齋藤陽道、澄毅",
+    "officialTitle": "齋藤陽道、澄毅",
+    "venue": "京都写真美術館ギャラリー・ジャパネスク2F",
+    "lat": 35.0099349,
+    "lng": 135.7825933,
+    "addressOfficial": "〒605-0038京都市東山区堀池町 374-2",
+    "addressNormalized": "〒605-0038 京都府京都市東山区堀池町374-2",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/harumichi-saitotakeshisumi/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_09_bissig_ace_hotel_kyoto",
+    "no": "09",
+    "title": "シンデイ・ビシッグ",
+    "officialTitle": "シンデイ・ビシッグ",
+    "venue": "エースホテル京都ロビーギャラリー",
+    "lat": 35.0097744,
+    "lng": 135.7599798,
+    "addressOfficial": "〒604-8185 京都府京都市中京区車屋町２４５−２",
+    "addressNormalized": "〒604-8185 京都府京都市中京区車屋町245-2",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/cindy-bissig/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_10_lin_gallery_biga",
+    "no": "10",
+    "title": "林育良",
+    "officialTitle": "林育良",
+    "venue": "Gallery Biga",
+    "lat": 35.0247562,
+    "lng": 135.7953593,
+    "addressOfficial": "〒606-8405 京都府京都市左京区浄土寺上南田町2番地",
+    "addressNormalized": "〒606-8405 京都府京都市左京区浄土寺上南田町2",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/makoto-lin/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_11_gil_fine_art_hotel_anteroom",
+    "no": "11",
+    "title": "GIL FINE ART",
+    "officialTitle": "GIL FINE ART",
+    "venue": "ホテル アンテルーム 京都 ギャラリー 9.5",
+    "lat": 34.9753382,
+    "lng": 135.7589319,
+    "addressOfficial": "〒601-8044 京都府京都市南区東九条明田町７",
+    "addressNormalized": "〒601-8044 京都府京都市南区東九条明田町7",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/gil-fine-art/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_12_kimura_su",
+    "no": "12",
+    "title": "木村肇",
+    "officialTitle": "木村肇",
+    "venue": "Su",
+    "lat": 35.0148209,
+    "lng": 135.7622734,
+    "addressOfficial": "京都市中京区夷川通高倉天守町742 イナイビル2F.",
+    "addressNormalized": "京都府京都市中京区夷川通高倉天守町742 イナイビル2F",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/hajime-kimura/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_13_daniela_kostova_gallery_maronie",
     "no": "13",
-    "title": "ダニエラ・コストヴァ他",
+    "title": "ダニエラ・コストヴァ、アリーヌ・ミュラー、ゾーイ・マリエ・アーネス、ケイティ・ヘラー・サルトゥーン、白井里実",
+    "officialTitle": "Daniela Kostova, Aline Müller, Zoe Marieh Urness, Katie Heller Saltoun, Satomi Shirai",
     "venue": "ギャラリーマロニエ",
-    "lat": 35.0055,
-    "lng": 135.7694,
-    "addressNormalized": "京都市中京区塩屋町332",
-    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/daniela-kostova-aline-muller-zoe-marieh-urness-katie-heller-saltoun-satomi-shirai/"
+    "lat": 35.0055252,
+    "lng": 135.7694462,
+    "addressOfficial": "京都府京都市中京区塩屋町332",
+    "addressNormalized": "〒604-8027 京都府京都市中京区塩屋町332",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/daniela-kostova-aline-muller-zoe-marieh-urness-katie-heller-saltoun-satomi-shirai/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id",
+      "officialTitle"
+    ],
+    "notes": "13 はギャラリーマロニエ"
   },
   {
-    "no": "S16",
-    "title": "京都駅ビル展示",
-    "venue": "京都駅",
-    "lat": 34.9858,
-    "lng": 135.7587,
-    "addressNormalized": "京都駅",
-    "detailUrl": "https://kgplus.kyotographie.jp/"
+    "id": "kgp_2026_14_sugino_feel_records",
+    "no": "14",
+    "title": "杉野信也",
+    "officialTitle": "杉野信也",
+    "venue": "Feel Records 京都はなれ店 ギャラリーにかい",
+    "lat": 34.9893343,
+    "lng": 135.7471116,
+    "addressOfficial": "〒600-8833 京都府京都市下京区西酢屋町10番地 2F",
+    "addressNormalized": "〒600-8833 京都府京都市下京区西酢屋町10 2F",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/shin-sughino/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_15_yamada_reign_hotel_kyoto",
+    "no": "15",
+    "title": "山田明理",
+    "officialTitle": "山田明理",
+    "venue": "THE REIGN HOTEL KYOTO",
+    "lat": 34.9734983,
+    "lng": 135.764043,
+    "addressOfficial": "〒601-8025 京都府京都市南区東九条柳下町67-1",
+    "addressNormalized": "〒601-8025 京都府京都市南区東九条柳下町67-1",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/yamada-akari/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_16_1_kanai_tassel_hotel_sanjo_shirakawa",
+    "no": "16-1",
+    "title": "金井杜道",
+    "officialTitle": "金井杜道",
+    "venue": "タッセルホテル三条白川",
+    "lat": 35.0095128,
+    "lng": 135.7807968,
+    "addressOfficial": "京都市東山区大井手町103-3",
+    "addressNormalized": "京都府京都市東山区大井手町103-3",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/morio-kanai/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "同一詳細ページ内の会場1"
+  },
+  {
+    "id": "kgp_2026_16_2_kanai_moxy_kyoto",
+    "no": "16-2",
+    "title": "金井杜道",
+    "officialTitle": "金井杜道",
+    "venue": "モクシー京都",
+    "lat": 35.0100296,
+    "lng": 135.7429174,
+    "addressOfficial": "〒604-8412 京都府京都市中京区西ノ京南聖町12",
+    "addressNormalized": "〒604-8412 京都府京都市中京区西ノ京南聖町12",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/morio-kanai/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "同一詳細ページ内の会場2"
+  },
+  {
+    "id": "kgp_2026_17_suzuki_yumikaku",
+    "no": "17",
+    "title": "鈴木幹雄",
+    "officialTitle": "鈴木幹雄",
+    "venue": "弓箭閣",
+    "lat": 34.9983701,
+    "lng": 135.7733867,
+    "addressOfficial": "〒605-0817 京都府京都市東山区弓矢町67-8",
+    "addressNormalized": "〒605-0817 京都府京都市東山区弓矢町67-8",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/mikio-suzuki/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_18_longly_no317_anewal_gallery",
+    "no": "18",
+    "title": "カトリーヌ・ロングリー",
+    "officialTitle": "Katherine Longly",
+    "venue": "No. 317 ANEWAL Gallery",
+    "lat": 35.0229167,
+    "lng": 135.751564,
+    "addressOfficial": "no.317 ANEWAL Gallery 堀川団地出水団地第3棟1階317号",
+    "addressNormalized": "No.317 ANEWAL Gallery 堀川団地出水団地第3棟1階317号",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/katherine-longly/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id",
+      "officialTitle"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_19_thierree_institut_francais_kansai",
+    "no": "19",
+    "title": "ヴィクトワール・ティエレ",
+    "officialTitle": "Victoire Thierrée",
+    "venue": "関西日仏学館",
+    "lat": 35.0262132,
+    "lng": 135.7782698,
+    "addressOfficial": "〒606-8301 京都府京都市左京区吉田泉殿町８",
+    "addressNormalized": "〒606-8301 京都府京都市左京区吉田泉殿町8",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/victoire-thierree/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id",
+      "officialTitle"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_20_carter_fuko",
+    "no": "20",
+    "title": "ケネディ・カーター",
+    "officialTitle": "Kennedi Carter",
+    "venue": "風光",
+    "lat": 35.0188938,
+    "lng": 135.783556,
+    "addressOfficial": "〒606-8326 京都府京都市左京区岡崎西福ノ川町22-21",
+    "addressNormalized": "〒606-8326 京都府京都市左京区岡崎西福ノ川町22-21",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/kennedi-carter/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id",
+      "officialTitle"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_21_chen_the_path_studio",
+    "no": "21",
+    "title": "陳雨星",
+    "officialTitle": "Yuxing Chen",
+    "venue": "THE PATH Studio",
+    "lat": 34.988998,
+    "lng": 135.7479622,
+    "addressOfficial": "〒600-8831 京都府京都市下京区花畑町５８２−4",
+    "addressNormalized": "〒600-8831 京都府京都市下京区花畑町582-4",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/yuxing-chen/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id",
+      "officialTitle"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_22_yasunaga_kojin_kyoto",
+    "no": "22",
+    "title": "安永ケンタウロス",
+    "officialTitle": "Kentauros Yasunaga",
+    "venue": "kojin kyoto",
+    "lat": 35.0212994,
+    "lng": 135.7708096,
+    "addressOfficial": "602-8126 京都府京都市上京区上生洲町２４８−３",
+    "addressNormalized": "〒602-8126 京都府京都市上京区上生洲町248-3",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/kentauros-yasunaga/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id",
+      "officialTitle"
+    ],
+    "notes": "internal id 追加"
+  },
+  {
+    "id": "kgp_2026_23_1_atelier_ricken_backer_neutral_horikawa",
+    "no": "23-1",
+    "title": "アトリエリッケンバッカー",
+    "officialTitle": "アトリエリッケンバッカー",
+    "venue": "NEUTRAL horikawa",
+    "lat": 35.0241202,
+    "lng": 135.7515371,
+    "addressOfficial": "〒602-8242 京都府京都市上京区皀莢町２８７ 堀川新文化ビルヂング 2F",
+    "addressNormalized": "〒602-8242 京都府京都市上京区皀莢町287 堀川新文化ビルヂング2F",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/atelier-ricken-backer/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "同一詳細ページ内の会場1"
+  },
+  {
+    "id": "kgp_2026_23_2_atelier_ricken_backer_neutral_horikawa",
+    "no": "23-2",
+    "title": "アトリエリッケンバッカー",
+    "officialTitle": "アトリエリッケンバッカー",
+    "venue": "NEUTRAL horikawa",
+    "lat": 35.024101,
+    "lng": 135.7515476,
+    "addressOfficial": "〒602-8242 京都府京都市上京区皀莢町２８７ 堀川新文化ビルヂング 2F",
+    "addressNormalized": "〒602-8242 京都府京都市上京区皀莢町287 堀川新文化ビルヂング2F",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/atelier-ricken-backer/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "同一詳細ページ内の会場2"
+  },
+  {
+    "id": "kgp_2026_25_morita_gallery_garage",
+    "no": "25",
+    "title": "もりた ゆり",
+    "officialTitle": "もりた ゆり",
+    "venue": "GALLERY GARAGE",
+    "lat": 34.9774233,
+    "lng": 135.7662635,
+    "addressOfficial": "京都市南区東九条北松ノ木町7-1",
+    "addressNormalized": "京都府京都市南区東九条北松ノ木町7-1",
+    "detailUrl": "https://kgplus.kyotographie.jp/exhibitions/2026/yuri-morita/",
+    "verificationStatus": "verified",
+    "verifiedFields": [
+      "detailUrl",
+      "addressOfficial",
+      "addressNormalized",
+      "id"
+    ],
+    "notes": "internal id 追加"
   }
 ]
